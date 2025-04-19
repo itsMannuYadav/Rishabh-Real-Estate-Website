@@ -1,0 +1,27 @@
+PLACEHOLDER IMAGES NEEDED FOR RISHABH REAL ESTATE WEBSITE
+
+The following images are referenced in the CSS and HTML files:
+
+1. hero-bg.jpg
+   - Purpose: Background for the hero section
+   - Recommended size: 1920x1080px
+   - Style: High-quality image of a luxury property exterior or interior
+
+2. about-img.jpg
+   - Purpose: Image for the About section
+   - Recommended size: 600x500px
+   - Style: Professional photo of a real estate agent or office
+
+3. client1.jpg, client2.jpg, client3.jpg
+   - Purpose: Testimonial client photos
+   - Recommended size: 100x100px
+   - Style: Headshot portraits of clients
+
+INSTRUCTIONS:
+1. Replace these placeholder text files with actual images.
+2. Make sure to maintain the exact filenames.
+3. Optimize images for web (compress without significant quality loss).
+4. Use free stock photos from sites like Unsplash, Pexels, or Pixabay if needed.
+
+Note: The website is using these image references in the HTML and CSS files. 
+If you change the filenames, you'll need to update those references in the code. 

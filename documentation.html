@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh Real Estate Website Documentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #ffc107;
+            border-bottom: 2px solid #ffc107;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #343a40;
+            margin-top: 30px;
+            border-bottom: 1px solid #dee2e6;
+            padding-bottom: 5px;
+        }
+        h3 {
+            color: #495057;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 5px;
+            border-radius: 3px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        pre {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            overflow-x: auto;
+            border: 1px solid #dee2e6;
+        }
+        pre code {
+            background-color: transparent;
+            padding: 0;
+        }
+        .toc {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin-bottom: 30px;
+        }
+        .toc h2 {
+            margin-top: 0;
+        }
+        .toc ol {
+            padding-left: 20px;
+        }
+        .toc li {
+            margin-bottom: 5px;
+        }
+        .footer {
+            margin-top: 50px;
+            padding-top: 20px;
+            border-top: 1px solid #dee2e6;
+            text-align: center;
+            font-size: 0.9em;
+            color: #6c757d;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #dee2e6;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f8f9fa;
+        }
+        ul, ol {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        @media print {
+            body {
+                font-size: 12pt;
+            }
+            h1 {
+                font-size: 20pt;
+            }
+            h2 {
+                font-size: 16pt;
+            }
+            h3 {
+                font-size: 14pt;
+            }
+            pre, code {
+                font-size: 10pt;
+            }
+            a {
+                color: #000;
+                text-decoration: none;
+            }
+            .toc {
+                background-color: #fff;
+                border: 1px solid #dee2e6;
+            }
+            .page-break {
+                page-break-before: always;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>Rishabh Real Estate Website Documentation</h1>
+    
+    <div class="toc">
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#features-overview">Features Overview</a></li>
+            <li><a href="#technical-specifications">Technical Specifications</a></li>
+            <li><a href="#file-structure">File Structure</a></li>
+            <li><a href="#components-guide">Components Guide</a></li>
+            <li><a href="#customization-guide">Customization Guide</a></li>
+            <li><a href="#maintenance">Maintenance</a></li>
+            <li><a href="#seo-recommendations">SEO Recommendations</a></li>
+            <li><a href="#browser-compatibility">Browser Compatibility</a></li>
+            <li><a href="#contact-support">Contact & Support</a></li>
+        </ol>
+    </div>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>The Rishabh Real Estate Website is a modern, responsive web application designed to showcase luxury properties and facilitate connections between real estate agents and potential clients. The website features a clean, professional design with interactive elements, smooth animations, and comprehensive property listings.</p>
+        <p>This documentation provides a detailed overview of the website's features, technical specifications, and customization options to help you understand and maintain the site effectively.</p>
+    </section>
+
+    <section id="features-overview">
+        <h2>Features Overview</h2>
+        
+        <h3>Core Features</h3>
+        <ul>
+            <li><strong>Responsive Design</strong>: Fully responsive layout that adapts to all screen sizes and devices</li>
+            <li><strong>Dynamic Theme</strong>: User-togglable dark/light theme with persistent preference storage</li>
+            <li><strong>Property Listings</strong>: Showcases properties with YouTube video integration</li>
+            <li><strong>Interactive Elements</strong>: Smooth animations and hover effects throughout the site</li>
+            <li><strong>Contact Options</strong>: Multiple contact methods including WhatsApp, Email, and contact form</li>
+            <li><strong>Testimonials</strong>: Client testimonials section to build trust</li>
+            <li><strong>Google Maps Integration</strong>: Interactive map showing office location</li>
+        </ul>
+        
+        <h3>User Experience Enhancements</h3>
+        <ul>
+            <li><strong>Hero Section</strong>: Engaging carousel with overlay text and call-to-action buttons</li>
+            <li><strong>Smooth Scrolling</strong>: Enhanced navigation with smooth scrolling to sections</li>
+            <li><strong>Floating Contact Buttons</strong>: Fixed position contact options for easy access</li>
+            <li><strong>Hover Animations</strong>: Interactive elements with engaging hover effects</li>
+            <li><strong>Video Integration</strong>: Property listings with embedded YouTube videos that play on hover</li>
+            <li><strong>Form Validation</strong>: Real-time validation for the contact form</li>
+        </ul>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="technical-specifications">
+        <h2>Technical Specifications</h2>
+        
+        <h3>Technologies Used</h3>
+        <ul>
+            <li><strong>HTML5</strong>: Modern, semantic markup</li>
+            <li><strong>CSS3</strong>: Advanced styling with variables and transitions</li>
+            <li><strong>JavaScript (ES6+)</strong>: Interactive functionality and animations</li>
+            <li><strong>Bootstrap 5</strong>: Responsive layout framework</li>
+            <li><strong>Font Awesome 6</strong>: Icon library</li>
+            <li><strong>AOS (Animate On Scroll)</strong>: Scroll-triggered animations</li>
+        </ul>
+        
+        <h3>Performance Optimization</h3>
+        <ul>
+            <li><strong>Lazy Loading</strong>: Images and videos load as needed</li>
+            <li><strong>Efficient CSS</strong>: Organized CSS with variables for easy theming</li>
+            <li><strong>Minified Resources</strong>: Compressed external libraries for faster loading</li>
+            <li><strong>Browser Caching</strong>: Leverages browser caching for improved performance</li>
+        </ul>
+    </section>
+
+    <section id="file-structure">
+        <h2>File Structure</h2>
+        <pre><code>/
+├── index.html            # Main HTML file
+├── css/
+│   └── style.css         # Main stylesheet
+├── js/
+│   └── script.js         # JavaScript functionality
+└── assets/               # Media assets folder
+    ├── hero-bg.jpg       # Hero section background
+    ├── about-img.jpg     # About section image
+    ├── client1.jpg       # Testimonial client image
+    ├── client2.jpg       # Testimonial client image
+    └── client3.jpg       # Testimonial client image</code></pre>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="components-guide">
+        <h2>Components Guide</h2>
+        
+        <h3>Navigation</h3>
+        <p>The website features a fixed navigation bar that changes appearance when scrolling. Navigation links smoothly scroll to the corresponding sections when clicked.</p>
+        <pre><code>&lt;nav class="navbar navbar-expand-lg navbar-light fixed-top"&gt;
+    &lt;!-- Navigation content --&gt;
+&lt;/nav&gt;</code></pre>
+        
+        <h3>Hero Section</h3>
+        <p>The hero section includes a carousel of background images with a text overlay and call-to-action buttons.</p>
+        <pre><code>&lt;section id="home" class="hero-section"&gt;
+    &lt;!-- Hero content --&gt;
+&lt;/section&gt;</code></pre>
+        
+        <h3>Property Cards</h3>
+        <p>Property listings are displayed as cards with embedded YouTube videos, property details, and contact buttons.</p>
+        <pre><code>&lt;div class="property-card"&gt;
+    &lt;div class="property-video"&gt;
+        &lt;!-- Video embed --&gt;
+    &lt;/div&gt;
+    &lt;div class="property-details"&gt;
+        &lt;!-- Property information --&gt;
+    &lt;/div&gt;
+&lt;/div&gt;</code></pre>
+        
+        <h3>Contact Form</h3>
+        <p>The contact form includes validation and a success message upon submission.</p>
+        <pre><code>&lt;form id="contactForm"&gt;
+    &lt;!-- Form fields --&gt;
+&lt;/form&gt;</code></pre>
+        
+        <h3>Theme Toggle</h3>
+        <p>The theme toggle button allows users to switch between light and dark modes.</p>
+        <pre><code>&lt;div id="theme-toggle" class="theme-toggle"&gt;
+    &lt;i id="theme-toggle-icon" class="fas fa-moon"&gt;&lt;/i&gt;
+&lt;/div&gt;</code></pre>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="customization-guide">
+        <h2>Customization Guide</h2>
+        
+        <h3>Changing Colors</h3>
+        <p>The website uses CSS variables for easy color customization. Edit the root variables in style.css:</p>
+        <pre><code>:root {
+    --primary-color: #ffc107;
+    --secondary-color: #343a40;
+    /* Other color variables */
+}</code></pre>
+        
+        <h3>Adding Properties</h3>
+        <p>To add a new property:</p>
+        <ol>
+            <li>Copy an existing property card structure</li>
+            <li>Update the details (title, location, amenities, price)</li>
+            <li>Replace the YouTube video ID with the appropriate one</li>
+        </ol>
+        <pre><code>&lt;div class="property-card"&gt;
+    &lt;!-- Copy and modify this structure --&gt;
+&lt;/div&gt;</code></pre>
+        
+        <h3>Updating Content</h3>
+        <p>Most content can be updated directly in the HTML file:</p>
+        <ul>
+            <li>Text sections can be modified by finding the corresponding section</li>
+            <li>Images can be replaced by updating the src attributes</li>
+            <li>Contact information can be updated in the contact section and float buttons</li>
+        </ul>
+        
+        <h3>Customizing Animations</h3>
+        <p>Animation effects can be modified by adjusting the AOS attributes:</p>
+        <pre><code>&lt;div data-aos="fade-up" data-aos-delay="200"&gt;
+    &lt;!-- Content to animate --&gt;
+&lt;/div&gt;</code></pre>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="maintenance">
+        <h2>Maintenance</h2>
+        
+        <h3>Regular Updates</h3>
+        <ul>
+            <li>Periodically check and update Bootstrap and other libraries to their latest versions</li>
+            <li>Ensure all property listings have current and accurate information</li>
+            <li>Review and update contact information as needed</li>
+        </ul>
+        
+        <h3>Backup Recommendations</h3>
+        <ul>
+            <li>Keep a backup of the entire website folder</li>
+            <li>Before making significant changes, create a backup copy</li>
+            <li>Consider using version control (like Git) for tracking changes</li>
+        </ul>
+        
+        <h3>Testing</h3>
+        <ul>
+            <li>Regularly test the website on different devices and browsers</li>
+            <li>Verify that contact forms submit correctly</li>
+            <li>Check that all links and buttons work as expected</li>
+        </ul>
+    </section>
+
+    <section id="seo-recommendations">
+        <h2>SEO Recommendations</h2>
+        
+        <h3>Meta Tags</h3>
+        <p>The website includes basic meta tags. Consider enhancing them with:</p>
+        <pre><code>&lt;meta name="description" content="Rishabh Real Estate - Premium properties in Mumbai. Find luxury apartments, villas, and penthouses in prime locations."&gt;
+&lt;meta name="keywords" content="real estate, luxury properties, Mumbai, apartments, villas, penthouses"&gt;</code></pre>
+        
+        <h3>Image Optimization</h3>
+        <ul>
+            <li>Ensure all images have descriptive alt tags</li>
+            <li>Compress images for web to improve loading times</li>
+            <li>Consider using next-gen formats like WebP where supported</li>
+        </ul>
+        
+        <h3>Content Strategy</h3>
+        <ul>
+            <li>Regularly update property listings with fresh content</li>
+            <li>Consider adding a blog section for real estate tips and market updates</li>
+            <li>Include location-specific keywords in property descriptions</li>
+        </ul>
+    </section>
+
+    <div class="page-break"></div>
+
+    <section id="browser-compatibility">
+        <h2>Browser Compatibility</h2>
+        
+        <p>The website has been tested and is compatible with:</p>
+        <ul>
+            <li>Chrome (latest)</li>
+            <li>Firefox (latest)</li>
+            <li>Safari (latest)</li>
+            <li>Edge (latest)</li>
+            <li>Opera (latest)</li>
+        </ul>
+        
+        <p>Mobile compatibility has been verified on:</p>
+        <ul>
+            <li>iOS (Safari)</li>
+            <li>Android (Chrome)</li>
+        </ul>
+    </section>
+
+    <section id="contact-support">
+        <h2>Contact & Support</h2>
+        
+        <p>For additional support or customization needs, please contact:</p>
+        
+        <p><strong>Email</strong>: info@rishabhrealestate.com<br>
+        <strong>Phone</strong>: +91 98765 43210</p>
+    </section>
+
+    <div class="footer">
+        <p>© 2023 Rishabh Real Estate. All rights reserved.</p>
+    </div>
+</body>
+</html> 
