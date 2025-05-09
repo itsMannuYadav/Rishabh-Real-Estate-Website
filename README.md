@@ -41,7 +41,7 @@ A modern, responsive real estate website built with HTML, CSS, and JavaScript us
 
 1. **Clone the repository**
    ```
-   git clone https://github.com/yourusername/rishabh-real-estate.git
+   git clone https://github.com/itsMannuYadav/Rishabh-Real-Estate-Website.git
    ```
 
 2. **Open the website**
