@@ -11,6 +11,7 @@ A modern, responsive real estate website built with HTML, CSS, and JavaScript us
 - **Contact Form**: Functional contact form with validation
 - **Google Maps Integration**: Embedded map to show location
 - **WhatsApp Integration**: Quick contact button
+- **Dark Mode**: Quick dark/noraml theme button
 
 ## Technical Specifications
 
@@ -59,7 +60,7 @@ A modern, responsive real estate website built with HTML, CSS, and JavaScript us
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-- Opera (latest)![Uploading screencapture-rishabh-real-estate-website-vercel-app-2025-05-09-12_25_42.png…]()
+- Opera (latest)
 
 
 ## License
@@ -70,4 +71,8 @@ This project is available for personal and commercial use.
 
 For any questions or customizations, contact:
 - Email: info@rishabhrealestate.com
-- Phone: +91 98765 43210 
+- Phone: +91 98765 43210
+
+![Screenshot 2025-05-09 122520](https://github.com/user-attachments/assets/051f521a-b4b0-46f4-ae37-7341f3f306e9)
+
+![screencapture-rishabh-real-estate-website-vercel-app-2025-05-09-12_25_42](https://github.com/user-attachments/assets/39154e6e-3e69-45f1-ae2f-cc3a0616d38c)
