@@ -59,7 +59,8 @@ A modern, responsive real estate website built with HTML, CSS, and JavaScript us
 - Firefox (latest)
 - Safari (latest)
 - Edge (latest)
-- Opera (latest)
+- Opera (latest)![Uploading screencapture-rishabh-real-estate-website-vercel-app-2025-05-09-12_25_42.png…]()
+
 
 ## License
 
